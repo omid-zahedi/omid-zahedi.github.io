@@ -1,0 +1,137 @@
+
+
+body {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+    background-image: url('back.webp'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+}
+
+.glass-container {
+    background-color: rgba(255, 255, 255, 0.167);
+    border-radius: 10px;
+    padding: 20px;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    backdrop-filter: blur(0);
+    box-sizing: border-box;
+    overflow: auto;
+    max-width: 700px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.icon-container h1 {
+    margin: 0;
+    text-shadow: 0px 1px 2px rgb(0 19 33 / 58%);
+}
+
+.glass-container p {
+    max-width: 700px;
+    word-wrap: break-word;
+    text-shadow: 0px 1px 2px rgb(0 19 33 / 58%);
+    text-align: center;
+}
+
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background: #ffffff;
+    color: #007BFF;
+    border: 2px solid #ffffff;
+    padding: 10px 5%;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    width: 90%;
+    max-width: none;
+    border-radius: 5px;
+}
+
+.btn img {
+    float: left;
+    margin-right: 10px;
+}
+
+.glass-container img {
+    max-width: 10%;
+    height: auto;
+    border-radius: 0px;
+}
+
+
+.button {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border: 2px solid #000000; 
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn.active {
+    opacity: 0.8;
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.glass-container {
+    background-color: rgb(255 255 255 / 12%);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+
